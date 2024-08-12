@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'snippets.apps.SnippetsConfig',
     'django_bootstrap5',
-    'accounts.apps.AccountsConfig'
+    'accounts.apps.AccountsConfig',
+    'ViewPractice.apps.ViewpracticeConfig'
 ]
 
 MIDDLEWARE = [
