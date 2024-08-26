@@ -23,5 +23,7 @@ urlpatterns = [
     path('',top,name = "top"),
     path('admin/', admin.site.urls),
     path('snippets/', include('snippets.urls')),
-    path('accounts/', include('accounts.urls'))
+    path('accounts/', include('accounts.urls')),
+    path('ViewPractice/', include('ViewPractice.urls')),
+    path('xss/', include('xss.urls'))
 ]

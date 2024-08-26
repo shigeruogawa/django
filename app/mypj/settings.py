@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     "django_bootstrap5",
     "accounts.apps.AccountsConfig",
     "ViewPractice.apps.ViewpracticeConfig",
-    'formapp.apps.FormappConfig',
+    # 'formapp.apps.FormappConfig',
+    'xss.apps.XssConfig'
 ]
 
 MIDDLEWARE = [

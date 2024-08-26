@@ -1,4 +1,4 @@
-from django.http import HttpResponse, HttpResponseForbidden
+from django.http import HttpResponseForbidden
 from django.shortcuts import render, get_object_or_404, redirect
 from snippets.models import Snippet
 from django.contrib.auth.decorators import login_required
