@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     "accounts.apps.AccountsConfig",
     "ViewPractice.apps.ViewpracticeConfig",
     # 'formapp.apps.FormappConfig',
-    'xss.apps.XssConfig'
+    'xss.apps.XssConfig',
+    'testing.apps.TestingConfig'
 ]
 
 MIDDLEWARE = [
