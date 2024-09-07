@@ -38,7 +38,7 @@ class TopPageTest(TestCase):
 from django.contrib.auth import get_user_model
 from django.test import TestCase, Client, RequestFactory
 
-from snippets.models import Snippet
+from testing.models import Snippet
 from snippets.views import top
 
 UserModel = get_user_model()

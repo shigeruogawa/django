@@ -1,0 +1,21 @@
+- model: accounts.User
+  pk: 1
+  fields:
+    username: usr1
+    email: ogawa@example
+    password: password
+    is_superuser: true
+- model: accounts.User
+  pk: 2
+  fields:
+    username: ogawa
+    email: ogawa2@example
+    password: pass2
+    is_superuser: false
+- model: accounts.User
+  pk: 3
+  fields:
+    username: kage
+    email: kage@example
+    password: xxx
+    is_superuser: false

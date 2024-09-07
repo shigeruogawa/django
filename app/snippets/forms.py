@@ -1,5 +1,5 @@
 from django import forms
-from snippets.models import Snippet
+from testing.models import Snippet
 
 
 class SnippetForm(forms.ModelForm):

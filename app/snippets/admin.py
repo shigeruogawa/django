@@ -1,4 +1,4 @@
 from django.contrib import admin
-from snippets.models import Snippet
+from testing.models import Snippet
 
 admin.site.register(Snippet)
